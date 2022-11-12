@@ -1,0 +1,83 @@
+.headingADelivery {
+  position: relative;
+  display: flex;
+  font-weight: 800;
+  top: 70px;
+  font-size: 3rem;
+  height: 400px;
+  background: url("https://i.ibb.co/BtGCYf8/shipping.jpg")
+    no-repeat center top/cover;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.lineDelivery {
+  margin: 0 8px;
+  background: #f5f5f5;
+  height: 0;
+  width: 8px;
+  transition: all 1s ease;
+}
+
+.lineon {
+  height: 60px;
+}
+.title {
+  position: relative;
+  right: 20px;
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+.titleon {
+  transform: translateX(30px);
+  opacity: 1;
+}
+.Content1,
+.Content2 {
+  text-align: justify;
+  display: grid;
+  column-gap: 60px;
+  row-gap: 30px;
+  font-weight: 500;
+  margin: 190px 95px;
+}
+.Content1 {
+  grid-template-columns: 65% 35%;
+}
+.Content2 {
+  grid-template-columns: 35% 65%;
+}
+.Imageabt {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.mImage {
+  transition: all 0.3s ease-in;
+}
+.Imageabt:hover .mImage {
+  transition: all 0.3s ease-in;
+  transform: scale(1.1);
+}
+.imagecontainer {
+  height: 400px;
+  width: 400px;
+}
+
+.text h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.text h3 {
+  font-size: 20px;
+  font-weight: 1500;
+  
+}
+@media screen and (max-width: 768px) {
+  .Content1,
+  .Content2 {
+    margin: 190px 30px;
+    grid-template-columns: 1fr;
+  }
+}

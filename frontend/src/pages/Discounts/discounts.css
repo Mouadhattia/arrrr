@@ -1,0 +1,11 @@
+.discounts{
+    background-color: red;
+    display: flex;
+    position: relative;
+    height: max-content;
+    top: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 350px;
+}

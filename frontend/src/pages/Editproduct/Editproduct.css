@@ -1,0 +1,51 @@
+.urls {
+  height: max-content;
+}
+.postionbtnupdate {
+  position: relative;
+  top: 80px;
+  margin-bottom: 50px;
+}
+
+.update-product-disabled  {
+  opacity: 0.8 !important;
+  cursor: not-allowed;
+}
+
+.update-product-disabled:hover  {
+  opacity: 0.8;
+  cursor: not-allowed;
+  
+}
+.image-color-container {
+  display : flex;
+  flex-direction: column;
+  border : solid;
+  border-radius: 15px;
+  border-color: rgb(201, 200, 200);
+  border-width: 2px;
+  margin : 10px;
+  padding : 10px;
+}
+
+.input-div > div {
+  position: relative;
+  height: auto;
+}
+
+.text-input-compact{
+  width: 80px;
+  padding-left: 3px;
+}
+
+
+.pair-input{
+  height : 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid #cecece 1px;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
